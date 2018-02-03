@@ -1,0 +1,283 @@
+@font-face {
+  font-family: "OpenSans-Regular";
+  src: local("OpenSans-Regular"), url("assets/font/OpenSans-Regular.ttf") format("truetype"); }
+body {
+  margin: 0;
+  padding: 0;
+  font-family: OpenSans-Regular, sans-serif; }
+
+.container {
+  margin: 0 auto;
+  max-width: 1024px; }
+
+nav #navbar-header {
+  margin: 0;
+  padding: 0; }
+nav .navbar-brand {
+  padding: 10px 0; }
+nav ul li a {
+  color: #243295; }
+nav .input {
+  font-size: 12px;
+  color: darkgray; }
+
+.stickynav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 50px;
+  background: white; }
+
+.main {
+  background-color: #243295;
+  background-image: url("assets/bg/Shape1@1x.svg"), url("assets/bg/Shape2@1x.svg");
+  background-position: top left, top left;
+  background-repeat: no-repeat;
+  padding: 20px;
+  color: white;
+  margin: 0; }
+  .main h3 {
+    color: #4196da;
+    margin-bottom: 20px;
+    font-size: 20px; }
+  .main .counter {
+    font-size: 22px;
+    margin: 20px 0; }
+    .main .counter span {
+      border: 1px solid rgba(255, 255, 255, 0.3);
+      border-radius: 4px;
+      padding: 10px;
+      margin: 10px; }
+    .main .counter #first {
+      margin-left: 0; }
+  .main h1 {
+    margin-top: 40px;
+    padding: 10px 10px 10px 0;
+    line-height: 50px; }
+  .main #subMail {
+    margin-top: 50px;
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.6); }
+  .main .input {
+    display: inline;
+    width: 70%;
+    padding: 8px 20px;
+    border-radius: 50px;
+    border: none; }
+  .main button {
+    padding: 8px 35px;
+    border: none;
+    border-radius: 50px;
+    background-color: #38a6db;
+    margin-left: -50px;
+    margin-bottom: 30px; }
+  .main #modalBack.col-md-6.colsm-6.col-xs-12 {
+    position: relative; }
+  .main .videoModal {
+    width: 100%;
+    border-radius: 10px; }
+  .main #buttonOnTop.btn.btn-primary {
+    position: absolute;
+    top: 45%;
+    left: 52%;
+    padding: 8px 30px; }
+  .main #blueCircle {
+    font-size: 25px;
+    padding: 5px 0; }
+  .main #sizeFrame {
+    width: 100%; }
+  .main .socialHeader {
+    float: right;
+    margin: 10px 5px; }
+  .main .socialMedia {
+    float: right;
+    list-style: none; }
+    .main .socialMedia .mediaPic {
+      display: inline-block;
+      margin: 5px; }
+
+.team {
+  text-align: center; }
+  .team .rwdcolumn {
+    margin-bottom: 30px; }
+  .team h1 {
+    color: #3946b6;
+    font-size: 16px;
+    padding: 20px; }
+  .team .img-portrait {
+    max-width: 120px;
+    height: auto;
+    border-radius: 10px; }
+  .team .name {
+    color: #1896c9;
+    font-size: 16px;
+    margin-bottom: 0; }
+  .team h6 {
+    color: rgba(0, 0, 0, 0.5); }
+  .team .profileIcon {
+    height: 20px;
+    width: 35px;
+    border: 0.4px solid rgba(0, 0, 0, 0.3);
+    padding: 5px 10px;
+    border-radius: 3px; }
+
+.teamSlider {
+  text-align: center; }
+  .teamSlider .rwdcolumn {
+    margin-bottom: 30px; }
+  .teamSlider h1 {
+    color: #3946b6;
+    font-size: 16px;
+    padding: 20px; }
+  .teamSlider .img-portrait {
+    max-width: 120px;
+    height: auto;
+    border-radius: 10px; }
+  .teamSlider .name {
+    color: #1896c9;
+    font-size: 16px;
+    margin-bottom: 0; }
+  .teamSlider h6 {
+    color: rgba(0, 0, 0, 0.5); }
+  .teamSlider .profileIcon {
+    height: 20px;
+    width: 35px;
+    border: 0.4px solid rgba(0, 0, 0, 0.3);
+    padding: 5px 10px;
+    border-radius: 3px; }
+
+#mySlider {
+  margin: 0 auto;
+  padding: 20px 50px;
+  width: 320px;
+  height: 400px;
+  background: transparent; }
+  #mySlider .img-portrait {
+    max-width: 120px;
+    height: auto;
+    border-radius: 10px;
+    margin: 0 auto; }
+  #mySlider .profileIcon {
+    height: 20px;
+    width: 35px;
+    border: 0.4px solid rgba(0, 0, 0, 0.3);
+    padding: 5px 10px;
+    border-radius: 3px;
+    margin: 0 auto;
+    display: inline-block; }
+  #mySlider .carousel-control {
+    color: #263497;
+    height: 0;
+    top: 190px;
+    text-align: center;
+    opacity: 0.1; }
+    #mySlider .carousel-control:hover {
+      opacity: 1;
+      color: #263497; }
+  #mySlider .carousel-indicators li {
+    background-color: #263497;
+    opacity: 0.3;
+    border: 1px solid #263497; }
+  #mySlider .carousel-indicators .active {
+    background-color: #263497;
+    opacity: 1;
+    border: 1px solid #263497; }
+
+footer {
+  background-color: #243295;
+  padding: 40px 0 0 0; }
+  footer img {
+    width: 80px; }
+  footer button {
+    color: white;
+    padding: 8px 35px;
+    border: none;
+    border-radius: 50px;
+    background-color: #38a6db;
+    float: right; }
+  footer p {
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    margin-bottom: 30px;
+    letter-spacing: 1px; }
+  footer #email {
+    color: #4196da;
+    font-size: 20px;
+    text-decoration: underline; }
+  footer #cent {
+    margin-bottom: 80px;
+    padding: 0 300px; }
+  footer .footerList {
+    list-style: none;
+    text-align: center; }
+    footer .footerList li {
+      display: inline;
+      border-left: 2px solid #4196da;
+      margin: 20px 30px;
+      padding-left: 60px; }
+      footer .footerList li a {
+        text-decoration: none;
+        color: rgba(255, 255, 255, 0.6); }
+    footer .footerList #firstLi {
+      padding-left: 0;
+      margin-left: 0;
+      border-left: none; }
+  footer #additional {
+    text-align: center;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.6); }
+
+@media only screen and (max-width: 992px) {
+  footer #cent {
+    padding: 0 150px; } }
+@media only screen and (max-width: 768px) {
+  .col-xs-12 {
+    text-align: center;
+    padding: 0; }
+    .col-xs-12 h1 {
+      font-size: 26px;
+      line-height: 30px;
+      padding: 0; }
+    .col-xs-12 .counter {
+      font-size: 16px; }
+      .col-xs-12 .counter span {
+        padding: 5px 8px;
+        margin: 5px; }
+    .col-xs-12 h3 {
+      text-align: center; }
+    .col-xs-12 button {
+      padding: 8px 20px; }
+    .col-xs-12 .socialHeader {
+      float: none;
+      text-align: center;
+      margin-top: 30px; }
+    .col-xs-12 .socialMedia {
+      float: none;
+      text-align: center;
+      padding-left: 0; }
+
+  footer img {
+    margin: 20px auto; }
+  footer button {
+    float: none;
+    margin: 30px auto 60px; }
+  footer #cent {
+    margin-bottom: 50px;
+    padding: 0 35px; }
+  footer .footerList {
+    padding-left: 0; }
+    footer .footerList li {
+      margin: 20px 5px;
+      padding-left: 10px; }
+    footer .footerList #secondLi {
+      padding-left: 0;
+      margin-left: 0;
+      border-left: none; }
+
+  .navbar-brand {
+    margin-left: 30px; } }
+
+/*# sourceMappingURL=style.css.map */
